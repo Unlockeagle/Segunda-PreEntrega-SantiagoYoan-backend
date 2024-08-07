@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Camiseta Básica",
+    "description": "Camiseta básica de algodón en color blanco.",
+    "code": "MB001",
+    "price": 20,
+    "status": true,
+    "stock": 50,
+    "category": "ropa casual",
+    "thumbnails": []
+  },
+  {
+    "id": 2,
+    "title": "Pantalones Chinos",
+    "description": "Pantalones chinos en color beige, perfectos para cualquier ocasión.",
+    "code": "MB002",
+    "price": 40,
+    "status": true,
+    "stock": 30,
+    "category": "ropa casual",
+    "thumbnails": []
+  },
+  {
+    "id": 3,
+    "title": "Camisa de Vestir",
+    "description": "Camisa de vestir de manga larga en color azul claro.",
+    "code": "MB003",
+    "price": 35,
+    "status": true,
+    "stock": 20,
+    "category": "ropa formal",
+    "thumbnails": []
+  },
+  {
+    "id": 4,
+    "title": "Chaqueta de Cuero",
+    "description": "Elegante chaqueta de cuero negro para un look moderno.",
+    "code": "MB004",
+    "price": 120,
+    "status": true,
+    "stock": 15,
+    "category": "ropa casual",
+    "thumbnails": []
+  },
+  {
+    "id": 5,
+    "title": "Corbata de Seda",
+    "description": "Corbata de seda en color rojo, ideal para eventos formales.",
+    "code": "MB005",
+    "price": 25,
+    "status": true,
+    "stock": 40,
+    "category": "ropa formal",
+    "thumbnails": []
+  }
+]

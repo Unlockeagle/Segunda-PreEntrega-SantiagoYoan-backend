@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Camiseta Básica",
+    "description": "Camiseta básica de algodón en color blanco.",
+    "code": "MB001",
+    "price": 20,
+    "status": true,
+    "stock": 50,
+    "category": "ropa casual",
+    "thumbnails": []
+  },
+  {
+    "id": 2,
+    "title": "Pantalones Chinos",
+    "description": "Pantalones chinos en color beige, perfectos para cualquier ocasión.",
+    "code": "MB002",
+    "price": 40,
+    "status": true,
+    "stock": 30,
+    "category": "ropa casual",
+    "thumbnails": []
+  },
+  {
+    "id": 3,
+    "title": "Camisa de Vestir",
+    "description": "Camisa de vestir de manga larga en color azul claro.",
+    "code": "MB003",
+    "price": 35,
+    "status": true,
+    "stock": 20,
+    "category": "ropa formal",
+    "thumbnails": []
+  },
+  {
+    "id": 4,
+    "title": "Chaqueta de Cuero",
+    "description": "Elegante chaqueta de cuero negro para un look moderno.",
+    "code": "MB004",
+    "price": 120,
+    "status": true,
+    "stock": 15,
+    "category": "ropa casual",
+    "thumbnails": []
+  },
+  {
+    "id": 5,
+    "title": "Corbata de Seda",
+    "description": "Corbata de seda en color rojo, ideal para eventos formales.",
+    "code": "MB005",
+    "price": 25,
+    "status": true,
+    "stock": 40,
+    "category": "ropa formal",
+    "thumbnails": []
+  },
+  {
+    "id": 6,
+    "title": "Blazer Gris",
+    "description": "Blazer gris de corte moderno, perfecto para la oficina.",
+    "code": "MB006",
+    "price": 90,
+    "status": true,
+    "stock": 10,
+    "category": "ropa formal",
+    "thumbnails": []
+  },
+  {
+    "id": 7,
+    "title": "Jeans Slim Fit",
+    "description": "Jeans slim fit en color azul oscuro.",
+    "code": "MB007",
+    "price": 50,
+    "status": true,
+    "stock": 25,
+    "category": "ropa casual",
+    "thumbnails": []
+  },
+  {
+    "id": 8,
+    "title": "Camiseta Deportiva",
+    "description": "Camiseta deportiva de poliéster en color negro.",
+    "code": "MB008",
+    "price": 30,
+    "status": true,
+    "stock": 60,
+    "category": "ropa casual",
+    "thumbnails": []
+  },
+  {
+    "id": 9,
+    "title": "Pantalones de Vestir",
+    "description": "Pantalones de vestir en color negro para ocasiones formales.",
+    "code": "MB009",
+    "price": 45,
+    "status": true,
+    "stock": 20,
+    "category": "ropa formal",
+    "thumbnails": []
+  },
+  {
+    "id": 10,
+    "title": "Zapatos de Cuero",
+    "description": "Zapatos de cuero marrón, perfectos para cualquier evento formal.",
+    "code": "MB010",
+    "price": 85,
+    "status": true,
+    "stock": 18,
+    "category": "ropa formal",
+    "thumbnails": []
+  }
+]

@@ -1,0 +1,41 @@
+{{!-- vista de todos los productos agregados --}}
+<div class="container-lg m-auto mt-24">
+
+<h1 class="text-3xl text-center font-bold underline">
+    Home Products
+</h1>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"></script>
+
+
+<div class="container-2xl flex flex-wrap justify-center mt-12 w-full ">
+
+{{#each products}}
+<!-- Card Products -->
+<div class="flex min-h-[400px]">
+  <div class="mx-auto px-5 ">
+    <div class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
+        {{!-- image --}}
+      <img class="w-full rounded-lg object-cover object-center" src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="product" />
+      <p class="my-4 pl-4 font-bold text-gray-500">Product Name {{this.title}}</p>
+      {{!-- container-price btn --}}
+      <div class="flex justify-between ">
+      <p class="ml-4 text-xl font-semibold text-gray-800 content-center">${{this.price}}</p>
+      {{!-- Button --}}
+      <button class="mr-4 group relative px-8 py-2 overflow-hidden rounded-md bg-green-500 text-lg font-bold text-white">
+    Comprar
+    <div class="absolute rotate-45 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-[3] group-hover:bg-white/30"></div>
+  </button>
+
+      </div>
+    
+    </div>
+  </div>
+</div>
+   
+{{/each}}
+</div>
+
+
+
